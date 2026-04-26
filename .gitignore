@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+backend/temp_uploads/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+backend/weights/*.keras
