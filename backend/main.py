@@ -19,9 +19,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from ml_models.detector_img import ImageDeepfakeDetector
-from ml_models.detector_vid import VideoDeepfakeDetector
-from ml_models.detector_aud import AudioDeepfakeDetector
+from backend.ml_models.detector_img import ImageDeepfakeDetector
+from backend.ml_models.detector_vid import VideoDeepfakeDetector
+from backend.ml_models.detector_aud import AudioDeepfakeDetector
 
 # Paths to the actual weights 
 # (Make sure to place deepfake_model.keras and audio_deepfake_detector.keras here)
